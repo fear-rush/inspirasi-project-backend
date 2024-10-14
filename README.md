@@ -100,7 +100,8 @@ This will create an executable named `earthquake-api` in your current directory.
 
 2. Run the container:
    ```
-   docker run -p 8080:8080 --env-file .env inspirasi-project-backend
+   docker run -p 8080:8080 --env-file .env inspirasi-project-backend or using docker compose up -d 
+   (from docker-compose.yaml file)
    ```
 
 Note: Make sure your `.env` file is in the same directory when running the Docker container.
