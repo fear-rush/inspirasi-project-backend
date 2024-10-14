@@ -1,0 +1,5 @@
+# Ignore docs folder, .env, .env.example, .gitignore, and docker-compose.yml
+# .env
+.env.example
+.gitignore
+docker-compose.yml

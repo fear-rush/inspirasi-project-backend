@@ -1,0 +1,9 @@
+services:
+  inspirasi-project-backend:
+    container_name: inspirasi-project-backend
+    image: marylnmanson/inspirasi-project-backend
+    restart: unless-stopped
+    volumes:
+      - .env:/.env 
+    ports:
+      - "8080:8080"
